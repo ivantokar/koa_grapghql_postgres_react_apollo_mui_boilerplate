@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "baseUrl": "src",
+        "outDir": "./build",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "paths": {
+            "@server/*": ["server/*"],
+            "@config": ["config"],
+            "@utils": ["utils"],
+            "@db/*": ["db/*"],
+            "@modules/*": ["server/modules/*"],
+            "@ui/*": ["ui/*"],
+            "@theme": ["ui/theme.ts"],
+            "@links": ["ui/links.tsx"],
+            "@components/*": ["ui/components/*"],
+            "@containers/*": ["ui/containers/*"],
+            "@screens/*": ["ui/screens/*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}

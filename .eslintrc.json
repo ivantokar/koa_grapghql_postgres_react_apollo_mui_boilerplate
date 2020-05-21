@@ -1,0 +1,9 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "off",
+        "jsx-a11y/anchor-has-content": "off",
+        "array-callback-return": "off"
+    }
+}
